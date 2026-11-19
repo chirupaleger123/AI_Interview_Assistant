@@ -34,5 +34,5 @@ if st.button("Generate AI Response", type = "primary"):
     task = "generate" + str(count) + "Frequenrtly askedcodeing question on "
   elif mode == "evaluate answer":
     task = "question :" + question + "MY Answer : " + answer + "Evalute this answer based on concept, relevence , communication, length of answe. give each rating out of 5 in a list. "
-   elif mode == "improve answers":
+  elif mode == "improve answers":
      task = "question :" + question + "MY Answer : " + answer + "imporve the answern based oon choice on words key words to include "
