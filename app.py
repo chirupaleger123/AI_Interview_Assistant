@@ -1,6 +1,6 @@
 import streamlit as st
 from groq import Groq
-st.set_page_config(page_title = "AI Interview Assistant", page_icon = '🫡', layout= 'centered')
+st.set_page_config(page_title = "AI Interview Assistant", page_icon = '🤍', layout= 'centered')
 st.title("AI Interview Asssitant ")
 st.caption(" it is a platform for getting information")
 try:
@@ -36,3 +36,4 @@ if st.button("Generate AI Response", type = "primary"):
     task = "question :" + question + "MY Answer : " + answer + "Evalute this answer based on concept, relevence , communication, length of answe. give each rating out of 5 in a list. "
   elif mode == "improve answers":
      task = "question :" + question + "MY Answer : " + answer + "imporve the answern based oon choice on words key words to include "
+    
